@@ -12,3 +12,4 @@ C:\Desenvolvedor.io\fundamentos-csharp\ProjetoAulas\obj\Debug\net8.0\refint\Proj
 C:\Desenvolvedor.io\fundamentos-csharp\ProjetoAulas\obj\Debug\net8.0\ProjetoAulas.pdb
 C:\Desenvolvedor.io\fundamentos-csharp\ProjetoAulas\obj\Debug\net8.0\ProjetoAulas.genruntimeconfig.cache
 C:\Desenvolvedor.io\fundamentos-csharp\ProjetoAulas\obj\Debug\net8.0\ref\ProjetoAulas.dll
+C:\desenvolvedor.io\fundamentos-csharp\ProjetoAulas\obj\Debug\net8.0\ProjetoAulas.sourcelink.json
