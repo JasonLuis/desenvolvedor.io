@@ -19,7 +19,15 @@ namespace Application
             //AulaClasseSelada();
             //AulaClasseAbstrata();
             //AulaRecord();
-            AulaInterface();
+            //AulaInterface();
+            Conversores();
+        }
+
+
+        private static void Conversores() {
+            var conversor = new Conversores.Conversor();
+            //conversor.ConvertandParse();
+            conversor.AulaTryParse();
         }
 
         private static void AulaInterface(){
