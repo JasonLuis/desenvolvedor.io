@@ -20,9 +20,24 @@ namespace Application
             //AulaClasseAbstrata();
             //AulaRecord();
             //AulaInterface();
-            Conversores();
+            //Conversores();
+            TrabalhandoComStrings();
         }
 
+
+        public static void TrabalhandoComStrings()
+        {
+            var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
+            //trabalhandoComStrings.ConverterParaLetrasMinusculas();
+            //trabalhandoComStrings.ConverterParaLetrasMaisculas();
+            //trabalhandoComStrings.AulaSubString();
+            //trabalhandoComStrings.AulaRange();
+            //trabalhandoComStrings.AulaContains();
+            //trabalhandoComStrings.AulaTrim();
+            //trabalhandoComStrings.AulaStartWithEndWith();
+            //trabalhandoComStrings.AulaReplace();
+            trabalhandoComStrings.AulaLength();
+        }
 
         private static void Conversores() {
             var conversor = new Conversores.Conversor();

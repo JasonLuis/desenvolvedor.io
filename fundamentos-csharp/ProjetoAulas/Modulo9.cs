@@ -22,7 +22,7 @@ public class Conversor
 
         if (int.TryParse(numero, out int numeroConvertido))
         {
-            Console.WriteLine($"Numero convertido");
+            Console.Write($"Numero convertido");
         }
 
         Console.WriteLine($"Numero convertido para -> {numeroConvertido}");
