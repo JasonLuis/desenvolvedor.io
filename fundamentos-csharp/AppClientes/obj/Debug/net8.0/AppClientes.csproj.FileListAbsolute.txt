@@ -1,0 +1,15 @@
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\bin\Debug\net8.0\AppClientes.exe
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\bin\Debug\net8.0\AppClientes.deps.json
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\bin\Debug\net8.0\AppClientes.runtimeconfig.json
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\bin\Debug\net8.0\AppClientes.dll
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\bin\Debug\net8.0\AppClientes.pdb
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.AssemblyInfoInputs.cache
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.AssemblyInfo.cs
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.csproj.CoreCompileInputs.cache
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.sourcelink.json
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.dll
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\refint\AppClientes.dll
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.pdb
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\AppClientes.genruntimeconfig.cache
+C:\desenvolvedor.io\fundamentos-csharp\AppClientes\obj\Debug\net8.0\ref\AppClientes.dll
