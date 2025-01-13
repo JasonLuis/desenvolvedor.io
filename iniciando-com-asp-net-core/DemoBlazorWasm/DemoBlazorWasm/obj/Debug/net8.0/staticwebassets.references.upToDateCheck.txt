@@ -1,0 +1,1 @@
+C:\desenvolvedor.io\iniciando-com-asp-net-core\DemoBlazorWasm\DemoBlazorWasm.Client\obj\Debug\net8.0\staticwebassets.build.json

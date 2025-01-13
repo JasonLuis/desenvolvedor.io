@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\data\\migrations\\20250108150001_alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:data\\migrations\\20250108150001_alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\alunos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:model\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\demorazorpage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:demorazorpage.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|c:\\desenvolvedor.io\\iniciando-com-asp-net-core\\demorazorpage\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C6D7598-B5FA-4D07-B35A-F2906D6BE29C}|DemoRazorPage.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T15:00:24.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250108150001_Alunos.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Data\\Migrations\\20250108150001_Alunos.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250108150001_Alunos.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Data\\Migrations\\20250108150001_Alunos.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250108150001_Alunos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T15:00:02.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Index.cshtml.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Alunos\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:56:04.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Index.cshtml",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Alunos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:56:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Delete.cshtml.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Alunos\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:56:04.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Delete.cshtml",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Alunos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:56:03.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Details.cshtml.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Alunos\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:56:03.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Details.cshtml",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Alunos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:56:03.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Edit.cshtml.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Alunos\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:56:03.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Edit.cshtml",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Alunos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:56:03.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Create.cshtml.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Alunos\\Create.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:56:03.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Alunos\\Create.cshtml",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Alunos\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Alunos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:56:02.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:56:02.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Model\\Aluno.cs",
+              "RelativeDocumentMoniker": "Model\\Aluno.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Model\\Aluno.cs",
+              "RelativeToolTip": "Model\\Aluno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:45:28.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DemoRazorPage",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\DemoRazorPage.csproj",
+              "RelativeDocumentMoniker": "DemoRazorPage.csproj",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\DemoRazorPage.csproj",
+              "RelativeToolTip": "DemoRazorPage.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-08T14:44:55.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:43:42.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\desenvolvedor.io\\iniciando-com-asp-net-core\\DemoRazorPage\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T14:43:26.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
