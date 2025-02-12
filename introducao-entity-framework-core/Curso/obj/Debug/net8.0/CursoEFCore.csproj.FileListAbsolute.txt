@@ -130,3 +130,8 @@ C:\desenvolvedor.io\introducao-entity-framework-core\Curso\obj\Debug\net8.0\refi
 C:\desenvolvedor.io\introducao-entity-framework-core\Curso\obj\Debug\net8.0\CursoEFCore.pdb
 C:\desenvolvedor.io\introducao-entity-framework-core\Curso\obj\Debug\net8.0\CursoEFCore.genruntimeconfig.cache
 C:\desenvolvedor.io\introducao-entity-framework-core\Curso\obj\Debug\net8.0\ref\CursoEFCore.dll
+C:\desenvolvedor.io\introducao-entity-framework-core\Curso\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\desenvolvedor.io\introducao-entity-framework-core\Curso\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\desenvolvedor.io\introducao-entity-framework-core\Curso\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\desenvolvedor.io\introducao-entity-framework-core\Curso\bin\Debug\net8.0\Microsoft.Extensions.Logging.Console.dll
+C:\desenvolvedor.io\introducao-entity-framework-core\Curso\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
