@@ -1,6 +1,7 @@
 using CursoEFCore.Data.Configurations;
 using CursoEFCore.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Logging;
 
 namespace CursoEFCore.Data;
@@ -26,7 +27,9 @@ public class ApplicationContext : DbContext
         optionsBuilder
             .UseLoggerFactory(_logger) // para utilizar o logger
             .EnableSensitiveDataLogging() // Quando estamos utilizando logging de aplicações, por padrão, todas as informações são sensiveis. Por padrão o EF core não exibe os valores que são gerados por ele, então para que possamos ver o valor por parametro gerado por ele é necessario habilitar essa opção através desse metodo.
-            .UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CursoEFCore;Integrated Security=True");
+            .UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CursoEFCore;Integrated Security=True", p=>p.EnableRetryOnFailure(maxRetryCount: 3, maxRetryDelay: TimeSpan.FromSeconds(5), errorNumbersToAdd: null).MigrationsHistoryTable("curso_ef_core")); // Habilita a opção de retentativa de conexão, caso a conexão falhe, ele tenta novamente 3 vezes com um intervalo de 5 segundos entre as tentativas e também podemos adicionar uma lista de erros que queremos que ele tente novamente.
+
+            // MigrationsHistoryTable("curso_ef_core") -> Altera o nome da tabela de historico de migrações para o nome que eu quiser, nesse caso para curso_ef_core
     }
 
     // Posso informar para o EF Core qual entidade quero criar meu modelo de dados informando no OnModelCreating
@@ -50,5 +53,27 @@ public class ApplicationContext : DbContext
         
         // 2 - Dessa maneira estou dizendo para procurar todas as classes que estou usando a interface IEntityTypeConfiguration nesse assembly que estou executando, diminuindo a quantidade de linha da forma anterior.
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationContext).Assembly);
+        // chama a função para mapear as propriedades esquecidas
+        MapearPropriedadesEsquecidas(modelBuilder);
+    }
+
+    private void MapearPropriedadesEsquecidas(ModelBuilder modelBuilder)
+    {
+        foreach (var entity in modelBuilder.Model.GetEntityTypes())
+        {
+            // pega as propriedades que são do tipo string
+            var properties = entity.GetProperties().Where(p => p.ClrType == typeof(string));
+
+            foreach (var property in properties)
+            {
+                // Verifica se o tipo da coluna esta vazia e se não tem um tamanho para propriedade
+                if (string.IsNullOrEmpty(property.GetColumnType()) && 
+                !property.GetMaxLength().HasValue)
+                {
+                    // property.SetMaxLength(100);
+                    property.SetColumnType("VARCHAR(100)");
+                }
+            }
+        }
     }
 }
