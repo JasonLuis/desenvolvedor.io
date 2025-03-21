@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ddgAD9n9MDbyQhzqE87GAAf1rEYFv/vxrNWGysGPmFM=",
+  "Source": "PrimeiraApiCli",
+  "BasePath": "_content/PrimeiraApiCli",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

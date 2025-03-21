@@ -21,7 +21,10 @@ if(existe) {
 //CadastrarPedido();
 //ConsultarPedidoCarregamentoAdiantado();
 //AtualizarDados();
-RemoverRegistro();
+//RemoverRegistro();
+
+ComparaDados();
+
 Console.WriteLine("Hello, World!");
 
 static void InserirDados() {
@@ -257,4 +260,25 @@ static void RemoverRegistro()
         A primeira maneira de remover um registro, foi realizando uma busca no banco de Dados para encontrar o registro e depois removendo.
         A segunda maneira de remover um registro, foi instanciando um objeto e passando o valor da chave primária e depois removendo o registro. Dessa forma o EFCore, não fara a busca no banco de dados, ele irá remover o registro direto.
     */
+}
+
+static void ComparaDados()
+{
+    using var db = new ApplicationContext();
+
+    var cliente1 = db.Clientes.Find(1);
+    var cliente2 = db.Clientes.Find(1);
+
+    var cliente3 = db.Clientes.Find(1);
+    cliente3!.Nome = "Nome atualizado 3";
+    
+
+    db.Clientes.Update(cliente3);
+
+    db.SaveChanges();
+
+    
+
+    Console.WriteLine($"Nome antigo - {cliente1!.Nome}");
+    Console.WriteLine($"Nome antigo - {cliente2!.Nome}"); 
 }
