@@ -3,9 +3,11 @@ using ApiFuncional.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ApiFuncional.Controllers;
 
+[Authorize] // Autorização para acessar o controller
 [ApiController]
 [Route("api/produtos")]
 public class ProdutosController: ControllerBase
@@ -29,6 +31,7 @@ public class ProdutosController: ControllerBase
         return await _context.Produtos.ToListAsync(); // pode usar o Ok(await _context.Produtos.ToListAsync())
     }
 
+    [AllowAnonymous] // permite acesso anônimo a esse endpoint
     [HttpGet("{id:int}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
