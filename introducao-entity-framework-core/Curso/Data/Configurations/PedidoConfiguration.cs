@@ -16,7 +16,7 @@ public class PedidoConfiguration : IEntityTypeConfiguration<Pedido>
         builder.Property(p => p.TipoFrete).HasConversion<int>();
         builder.Property(p => p.Observacao).HasColumnType("VARCHAR(512)");
 
-        // Configura o relacionamento muitos para um
+        // Configura o relacionamento muitos para um N:1
         builder.HasMany(p => p.Items)
             .WithOne(p => p.Pedido)
             // DeleteBehavior.Cascade -> Dessa forma, quanto excluimos um pedido, excluimos os items desse pedido sera deletado automaticamento

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace ApiFuncional.Controllers;
 
@@ -32,6 +33,7 @@ public class ProdutosController: ControllerBase
     }
 
     [AllowAnonymous] // permite acesso anônimo a esse endpoint
+    // [EnableCors("Production")] -> desabilita o cors Production
     [HttpGet("{id:int}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -116,6 +118,7 @@ public class ProdutosController: ControllerBase
         return NoContent();
     }
 
+    [Authorize(Roles = "Admin")] // apenas usuarios com a role Admin podem acessar esse endpoint
     [HttpDelete("{id:int}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]

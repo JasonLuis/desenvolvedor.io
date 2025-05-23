@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimeiraApiCli")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11112615becbf208af10d3782be93b0b6fece1a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbd13830e0c5f4221cae755288cd1ff9d4914f27")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimeiraApiCli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimeiraApiCli")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

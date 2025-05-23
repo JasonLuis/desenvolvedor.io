@@ -1,6 +1,8 @@
 using System;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 using ApiFuncional.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -45,7 +47,7 @@ public class AuthController : ControllerBase
         if (result.Succeeded)
         {
             await _signInManager.SignInAsync(user, false); // faz o login do usuário
-            return Ok(GerarJwt());
+            return Ok(await GerarJwt(user.Email));
         }
         return Problem("Erro ao registrar o usuário");
     }
@@ -59,18 +61,33 @@ public class AuthController : ControllerBase
 
         var result = await _signInManager.PasswordSignInAsync(loginUser.Email, loginUser.Password, false, true); // tenta fazer o login, caso falhe 5x o login, trava o usuario por 15 minutos
 
-        if (result.Succeeded) return Ok(GerarJwt()); // se o login for bem sucedido, gera o JWT
+        if (result.Succeeded) return Ok(await GerarJwt(loginUser.Email)); // se o login for bem sucedido, gera o JWT
 
-        return Problem("Usuário ou senha inválidos");
+        return Problem("UsuárioPPP ou senha inválidos");
     }
 
-    private string GerarJwt()
+    private async Task<string> GerarJwt(string email)
     {
+        var user = await _userManager.FindByEmailAsync(email); // busca o usuário pelo email
+        var roles = await _userManager.GetRolesAsync(user); // busca as roles do usuário
+        
+        var claims = new List<Claim> // cria os claims do usuário
+        {
+            new Claim(ClaimTypes.Name, user.UserName), // nome do usuário
+
+        };
+
+        foreach (var role in roles) // percorre as roles
+        {
+            claims.Add(new Claim(ClaimTypes.Role, role)); // adiciona a role do usuário
+        }
+
         var tokenHandler = new JwtSecurityTokenHandler(); // cria o manipulador de tokens JWT
         var key = Encoding.ASCII.GetBytes(_jwtSettings.Segredo); // converte a chave secreta para bytes
 
         var token = tokenHandler.CreateToken(new SecurityTokenDescriptor
         {
+            Subject = new ClaimsIdentity(claims), // adiciona os claims ao token
             Issuer = _jwtSettings.Emissor,
             Audience = _jwtSettings.Audiencia,
             Expires = DateTime.UtcNow.AddHours(_jwtSettings.ExpiracaoHoras),
