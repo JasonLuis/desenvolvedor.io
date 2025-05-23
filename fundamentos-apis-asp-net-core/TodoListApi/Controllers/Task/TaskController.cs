@@ -151,7 +151,7 @@ public class TaskController: ControllerBase
 
         var userIdGuid = Guid.Parse(userId);
 
-        var task = await _context.Tasks.Where(t => t.UserId == userIdGuid && t.Id == task.IdTask)
+        var task = await _context.Tasks.Where(t => t.UserId == userIdGuid && t.Id == dto.IdTask)
                                         .FirstOrDefaultAsync();
 
         if(task is null)

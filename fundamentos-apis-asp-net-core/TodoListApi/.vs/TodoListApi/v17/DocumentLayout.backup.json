@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|c:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|c:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\todolistapi\\controllers\\task\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|solutionrelative:controllers\\task\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|c:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\todolistapi\\controllers\\task\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|solutionrelative:controllers\\task\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|c:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\todolistapi\\controllers\\task\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|solutionrelative:controllers\\task\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|c:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4747A7DF-3B89-89FA-E0FA-75003B50B2C4}|TodoListApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -68,33 +68,33 @@
               "RelativeDocumentMoniker": "Controllers\\Task\\TaskDto.cs",
               "ToolTip": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\Controllers\\Task\\TaskDto.cs",
               "RelativeToolTip": "Controllers\\Task\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T20:14:10.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\Controllers\\Task\\TaskController.cs",
               "RelativeDocumentMoniker": "Controllers\\Task\\TaskController.cs",
               "ToolTip": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\Controllers\\Task\\TaskController.cs",
               "RelativeToolTip": "Controllers\\Task\\TaskController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAEwI4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAawKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T20:02:11.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABIAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T23:00:49.001Z",
               "EditorCaption": ""
