@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
               "ToolTip": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\ApiFuncional\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowEkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wEkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T22:11:03.044Z",
               "EditorCaption": ""
@@ -99,8 +99,7 @@
               "RelativeToolTip": "Models\\Produto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:22:46.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T05:22:46.395Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAqwBgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T01:55:36.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T01:55:36.362Z"
             },
             {
               "$type": "Document",
@@ -137,8 +135,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAgwA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T19:27:57.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T19:27:57.296Z"
             }
           ]
         }

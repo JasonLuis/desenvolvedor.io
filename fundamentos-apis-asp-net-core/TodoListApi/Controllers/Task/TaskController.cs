@@ -97,23 +97,23 @@ public class TaskController: ControllerBase
 
         if (userId is null) return Problem("Erro ao criar uma task, por favor contate o suporte.");
 
-        var Task = new TaskItem
+        var taskBody = new TaskItem
         {
             Title = task.Title,
             Description = task.Description,
             UserId = Guid.Parse(userId)
         };
 
-        _context.Tasks.Add(Task);
+        _context.Tasks.Add(taskBody);
         await _context.SaveChangesAsync();
 
-        return Ok(task); // retorna a tarefa criada
+        return CreatedAtAction(nameof(GetAllTasks), new {id = taskBody.Id, title = taskBody.Title, description = taskBody.Description}, taskBody); // retorna a tarefa criada
     }
 
-    [HttpPut("edit")]
-    public async Task<IActionResult> UpdateTask(UpdateTaskDto dto)
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateTask(int id, UpdateTaskDto dto)
     {
-        if (_context.Tasks == null) return Problem("Erro ao criar uma task, por favor contate o suporte.");
+        if (_context.Tasks == null) return NotFound();
 
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
         if (userId is null) return Problem("Erro ao criar uma task, por favor contate o suporte.");
@@ -123,7 +123,7 @@ public class TaskController: ControllerBase
 
         var userIdGuid = Guid.Parse(userId);
 
-        var task = await _context.Tasks.Where(t => t.UserId == userIdGuid && t.Id == dto.IdTask)
+        var task = await _context.Tasks.Where(t => t.UserId == userIdGuid && t.Id == id)
                                         .FirstOrDefaultAsync();
 
         if (task is null)
@@ -134,14 +134,22 @@ public class TaskController: ControllerBase
         task.Title = dto.Title;
         task.Description = dto.Description;
 
-        await _context.SaveChangesAsync();
+        try
+        {
+            await _context.SaveChangesAsync();
+        }
+        catch (DbUpdateConcurrencyException)
+        {
+            throw;
+        }
+
         return Ok(task);
     }
 
     [HttpPatch("update-status")]
     public async Task<IActionResult> UpdateStatus(UpdateStatusTaskDto dto)
     {
-        if (_context.Tasks == null) return Problem("Erro ao criar uma task, por favor contate o suporte.");
+        if (_context.Tasks == null) return NotFound();
 
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
         if (userId is null) return Problem("Erro ao criar uma task, por favor contate o suporte.");
@@ -159,13 +167,35 @@ public class TaskController: ControllerBase
             return NotFound();
         }
 
-        task.Status = task.Status;
+        task.Status = dto.Status;
 
         await _context.SaveChangesAsync();
         return Ok(task);
     }
 
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteTask(int id)
+    {
+        if (_context.Tasks == null) return NotFound();
 
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId is null) return Problem("Erro ao criar uma task, por favor contate o suporte.");
+
+        var userIdGuid = Guid.Parse(userId);
+
+        var task = await _context.Tasks.Where(t => t.UserId == userIdGuid && t.Id == id)
+                                       .FirstOrDefaultAsync();
+
+        if (task is null)
+        {
+            return NotFound();
+        }
+
+        _context.Tasks.Remove(task);
+
+        await _context.SaveChangesAsync();
+        return NoContent();
+    }
 
     private static string GetNameEnum(StatusTask status)
     {
