@@ -5,7 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
+using TodoListApi.Controllers.Auth;
 using TodoListApi.Data;
+using static TodoListApi.Controllers.Auth.AuthController;
 
 namespace IntegrationTest;
 
@@ -42,4 +46,21 @@ public class TaskWebApplicationFactory: WebApplicationFactory<Program>
         });
         base.ConfigureWebHost(builder);
     }
+
+    public async Task<HttpClient> GetClientWithAcessTokenAsync()
+    {
+        var client = this.CreateClient();
+        var user = new LoginDto { Email = "teste@teste.com", Password = "Teste@123" };
+        var response = await client.PostAsJsonAsync("/api/auth/login", user);
+       
+        // Verifica se a resposta foi bem-sucedida
+        response.EnsureSuccessStatusCode();
+
+        var result = await response.Content.ReadFromJsonAsync<AuthTokenResponse>();
+
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", result!.Token);
+
+        return client;
+    }
+
 }

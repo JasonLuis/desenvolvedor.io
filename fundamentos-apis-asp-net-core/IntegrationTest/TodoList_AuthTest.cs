@@ -17,7 +17,7 @@ namespace IntegrationTest
             using var client = app.CreateClient();
 
             // Act
-            var result = await client.PostAsJsonAsync("api/auth/login", user);
+            var result = await client.PostAsJsonAsync("/api/auth/login", user);
 
             // Assert
             Assert.Equal(HttpStatusCode.OK, result.StatusCode);
@@ -33,7 +33,7 @@ namespace IntegrationTest
             using var client = app.CreateClient();
 
             // Act
-            var result = await client.PostAsJsonAsync("api/auth/login", user);
+            var result = await client.PostAsJsonAsync("/api/auth/login", user);
 
             // Assert
             Assert.Equal(HttpStatusCode.InternalServerError, result.StatusCode);

@@ -63,7 +63,7 @@ public class AuthController: ControllerBase
         return Problem("Usuário ou senha inválidos.");
     }
 
-    private async Task<string> GerarToken(string email)
+    private async Task<AuthTokenResponse> GerarToken(string email)
     {
         var user = await _userManager.FindByEmailAsync(email); // busca o usuário pelo email
         var roles = await _userManager.GetRolesAsync(user); // busca as roles do usuário
@@ -93,6 +93,16 @@ public class AuthController: ControllerBase
 
         var encondedToken = tokenHandler.WriteToken(token); // convete o token em string
 
-        return encondedToken; // retorna o token
+        return new AuthTokenResponse
+        {
+            Token = encondedToken, // retorna o token
+            Expiration = token.ValidTo // retorna a data de expiração do token
+        };
+    }
+
+    public class AuthTokenResponse
+    {
+        public string Token { get; set; }
+        public DateTime Expiration { get; set; }
     }
 }
