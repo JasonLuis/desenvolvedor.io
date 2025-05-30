@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.Text.Json.Serialization;
 
 namespace TodoListApi.Models;
 
@@ -18,6 +19,7 @@ public class TaskItem
     public User User { get; set; }
 }
 
+[JsonConverter(typeof(JsonStringEnumConverter))]
 public enum StatusTask
 {
     New,

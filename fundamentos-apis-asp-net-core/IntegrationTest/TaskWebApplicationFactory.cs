@@ -18,6 +18,17 @@ namespace IntegrationTest;
 public class TaskWebApplicationFactory: WebApplicationFactory<Program>
 {
 
+    // expõe o contexto do banco de dados para que possamos usá-lo nos testes
+    public TodoListDbContext _context { get;  }
+    private IServiceScope _scope;
+
+    public TaskWebApplicationFactory()
+    {
+        // Recuperaremos o scope por meio do container de injeção de dependência.
+        _scope = Services.CreateScope();
+        _context = _scope.ServiceProvider.GetRequiredService<TodoListDbContext>();
+    }
+
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
         builder.ConfigureServices((context, services) =>
