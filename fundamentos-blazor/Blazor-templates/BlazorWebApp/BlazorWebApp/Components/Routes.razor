@@ -1,0 +1,11 @@
+﻿<Router AppAssembly="typeof(Program).Assembly" AdditionalAssemblies="new[] { typeof(Client._Imports).Assembly }">
+    <Found Context="routeData">
+        <RouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)" />
+        <FocusOnNavigate RouteData="routeData" Selector="h1" />
+    </Found>
+</Router>
+
+@* AdditionalAssemblies -> adiciona os assemblys  adicionais do outro projeto para mapear as rotas *@
+@* RouteView -> herança da versão antiga do Blazor *@
+@* DefaultLayout -> define o layout padrão para as rotas encontradas, neste caso, Layout.MainLayout *@
+@* FocusOnNavigate -> Foca no elemento h1 quando a rota é encontrada *@
