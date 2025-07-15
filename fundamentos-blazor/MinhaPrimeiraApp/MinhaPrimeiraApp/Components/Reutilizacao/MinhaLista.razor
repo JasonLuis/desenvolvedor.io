@@ -1,0 +1,38 @@
+﻿@page "/todo"
+@rendermode InteractiveServer
+
+<style>
+    .todo-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .todo-item .item-content {
+            align-items: center; 
+            padding-right: 20px; 
+        }
+
+    .task-completed {
+        text-decoration: line-through;
+        color: grey;
+    }
+
+</style>
+
+<div>
+    <h3>Minhas Tarefas</h3>
+    @foreach (var item in Tasks)
+    {
+        <TodoItem ItemText="@item" OnDelete="HandleDelete" />
+    }
+</div>
+
+@code {
+    private List<string> Tasks = new List<string> { "Comprar leite", "Enviar relatório", "Pagar contas" };
+
+    private void HandleDelete(string item)
+    {
+        Tasks.Remove(item);
+    }
+}

@@ -1,0 +1,31 @@
+﻿@page "/uso-generico"
+
+<TabelaGenerica Items="@Usuarios" 
+                Headers="@headers" 
+                ColumnTemplates="@columnTemplates">
+</TabelaGenerica>
+
+@code {
+    private IEnumerable<Usuario> Usuarios = new List<Usuario>
+    {
+        new Usuario { Nome = "Eduardo", Idade = 42, Email = "eduardo@example.com" },
+        new Usuario { Nome = "João", Idade = 30, Email = "joao@example.com" },
+        new Usuario { Nome = "Maria", Idade = 25, Email = "maria@example.com" }
+    };
+
+    private List<string> headers = new List<string> { "Nome", "Idade", "Email" };
+
+    private List<Func<Usuario, object>> columnTemplates = new List<Func<Usuario, object>>
+    {
+        item => item.Nome,
+        item => item.Idade.ToString(),
+        item => item.Email
+    };
+
+    public class Usuario
+    {
+        public string Nome { get; set; }
+        public int Idade { get; set; }
+        public string Email { get; set; }
+    }
+}

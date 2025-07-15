@@ -1,0 +1,29 @@
+﻿<div class="todo-item @(IsCompleted ? "completed" : "")">
+    <div class="col-2 item-content">
+        <span class="@((IsCompleted ? "task-completed" : ""))">@ItemText</span>
+    </div>
+    <div class="col-4 button-group">
+        <CustomButton Text="Concluir" Class="btn-success" OnClick="MarkComplete" IconHtml="@(new MarkupString("✓"))" />
+        <CustomButton Text="Excluir"  Class="btn-danger" OnClick="Delete" IconHtml="@(new MarkupString("✗"))" />
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string ItemText { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnDelete { get; set; }
+
+    public bool IsCompleted { get; set; }
+
+    private void MarkComplete()
+    {
+        IsCompleted = !IsCompleted;
+    }
+
+    private async Task Delete()
+    {
+        await OnDelete.InvokeAsync(ItemText);
+    }
+}

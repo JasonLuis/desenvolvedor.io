@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\components\\layout\\footer.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4AADEB05-FE66-4A4D-AB31-655923475679}|MinhaPrimeiraApp.Client\\MinhaPrimeiraApp.Client.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AADEB05-FE66-4A4D-AB31-655923475679}|MinhaPrimeiraApp.Client\\MinhaPrimeiraApp.Client.csproj|solutionrelative:minhaprimeiraapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\components\\cascading\\nivel1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\components\\cascading\\nivel1.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\components\\cascading\\nivel2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\components\\cascading\\nivel2.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\components\\cascading\\stylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\components\\cascading\\stylecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\components\\cascading\\nivel4.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\components\\cascading\\nivel4.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|c:\\desenvolvedor.io\\fundamentos-blazor\\minhaprimeiraapp\\minhaprimeiraapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{87A69093-EB9B-48AB-98FC-6CFEB0785F1C}|MinhaPrimeiraApp\\MinhaPrimeiraApp.csproj|solutionrelative:minhaprimeiraapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,27 +83,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "MinhaPrimeiraApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T23:42:43.602Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Program.cs",
+              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Program.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Program.cs",
+              "RelativeToolTip": "MinhaPrimeiraApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:35:40.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Footer.razor",
-              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Layout\\Footer.razor",
-              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Components\\Layout\\Footer.razor",
-              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Layout\\Footer.razor",
-              "RelativeToolTip": "MinhaPrimeiraApp\\Components\\Layout\\Footer.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp.Client\\Program.cs",
+              "RelativeDocumentMoniker": "MinhaPrimeiraApp.Client\\Program.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp.Client\\Program.cs",
+              "RelativeToolTip": "MinhaPrimeiraApp.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:35:33.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nivel2.razor",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\Nivel2.razor",
+              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Components\\Cascading\\Nivel2.razor",
+              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\Nivel2.razor",
+              "RelativeToolTip": "MinhaPrimeiraApp\\Components\\Cascading\\Nivel2.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T23:39:23.941Z",
+              "WhenOpened": "2025-07-15T05:25:07.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nivel1.razor",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\Nivel1.razor",
+              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Components\\Cascading\\Nivel1.razor",
+              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\Nivel1.razor",
+              "RelativeToolTip": "MinhaPrimeiraApp\\Components\\Cascading\\Nivel1.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:21:08.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MinhaPrimeiraApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:19:10.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Nivel4.razor",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\Nivel4.razor",
+              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Components\\Cascading\\Nivel4.razor",
+              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\Nivel4.razor",
+              "RelativeToolTip": "MinhaPrimeiraApp\\Components\\Cascading\\Nivel4.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:18:50.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StyleContext.cs",
+              "DocumentMoniker": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\StyleContext.cs",
+              "RelativeDocumentMoniker": "MinhaPrimeiraApp\\Components\\Cascading\\StyleContext.cs",
+              "ToolTip": "C:\\desenvolvedor.io\\fundamentos-blazor\\MinhaPrimeiraApp\\MinhaPrimeiraApp\\Components\\Cascading\\StyleContext.cs",
+              "RelativeToolTip": "MinhaPrimeiraApp\\Components\\Cascading\\StyleContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:18:26.745Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,13 @@
+﻿@rendermode InteractiveWebAssembly
+
+<h2>Client-side rendering (CSR)</h2>
+<button class="btn btn-primary" @onclick="ProcessaCliqueCSR">Clica Aqui!</button> @message
+
+@code {
+    private string message = "Não clicou.";
+
+    private void ProcessaCliqueCSR()
+    {
+        message = "Agora sim, clicado!!!";
+    }
+}

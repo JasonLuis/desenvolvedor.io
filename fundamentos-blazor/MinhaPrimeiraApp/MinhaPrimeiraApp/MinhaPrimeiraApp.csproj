@@ -11,4 +11,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.18" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Components\DataBinding\" />
+    <Folder Include="Components\Eventos\" />
+    <Folder Include="Components\Generico\" />
+    <Folder Include="Components\Reutilizacao\" />
+    <Folder Include="Components\PreRender\" />
+    <Folder Include="Components\RenderModes\" />
+  </ItemGroup>
+
 </Project>

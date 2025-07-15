@@ -1,0 +1,10 @@
+﻿@code {
+    [Parameter]
+    public string Titulo { get; set; }
+}
+
+@{
+    var tituloCompleto = $"{Titulo} | Minha Primeira App Blazor";
+}
+
+<PageTitle>@tituloCompleto</PageTitle>

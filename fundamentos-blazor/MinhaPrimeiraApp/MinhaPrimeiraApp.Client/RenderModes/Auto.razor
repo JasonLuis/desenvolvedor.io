@@ -1,0 +1,13 @@
+﻿@rendermode InteractiveAuto
+
+<h2>Automatic (Auto)</h2>
+<button class="btn btn-primary" @onclick="ProcessaCliqueAuto">Clica Aqui!</button> @message
+
+@code {
+    private string message = "Não clicou.";
+
+    private void ProcessaCliqueAuto()
+    {
+        message = "Agora sim, clicado!!!";
+    }
+}

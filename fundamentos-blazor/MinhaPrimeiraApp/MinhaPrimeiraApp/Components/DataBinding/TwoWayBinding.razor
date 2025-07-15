@@ -1,0 +1,16 @@
+﻿@rendermode InteractiveServer
+
+<h2>Two Way Binding</h2>
+<br />
+
+<label for="nameInput">Defina uma classe CSS:</label>
+<input id="nameInput" @bind="classe" @bind:event="oninput" />
+<br />
+
+<p>A classe definida é: @classe</p>
+
+<a class="@classe" href="#">Um link simples</a>
+
+@code {
+    private string classe = "";
+}

@@ -1021,9 +1021,9 @@ C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\2rk0cdipkg-tptq2av103.gz
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\w4x9mr5brv-lfu7j35m59.gz
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\0pthnvqh47-oyz0vx2fzb.gz
-C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\797hmckjyd-ginhg3h93j.gz
-C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\k7eclethek-o7sy3pscjy.gz
-C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\vloacvjwrh-tu13lstqsg.gz
+C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\797hmckjyd-aez30emq7u.gz
+C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\k7eclethek-jhxeg92bbj.gz
+C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\compressed\vloacvjwrh-qah3t4u0t6.gz
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp.Client\obj\Debug\net8.0\staticwebassets.development.json

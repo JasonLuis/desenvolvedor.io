@@ -1,0 +1,11 @@
+﻿<h2>Static Server (SSR)</h2>
+<button class="btn btn-primary" @onclick="ProcessaCliqueStatic">Clica Aqui!</button> @message
+
+@code {
+    private string message = "Não clicou.";
+
+    private void ProcessaCliqueStatic()
+    {
+        message = "Agora sim, clicado!!!";
+    }
+}

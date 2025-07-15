@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MinhaPrimeiraApp.Client",
   "resources": {
-    "hash": "sha256-607IsfZv/AyDqQYcQYa7DzDfO0ASPOga+YHCfhZRs3g=",
+    "hash": "sha256-eQN+A9LbtbvttE4AAQg9m7a+cKrKPKPPNCrhn7vsS6Q=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-1QpKPnxEuRCElzcp+e3MrovJeAJkuzqKmRQay/6Aa08="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-UnQd0YPXNpwbXsKqO8RAqgUVuwZsSpprfAIPpdV/y1Q=",
       "netstandard.wasm": "sha256-/QbD8JDZyYwfyk89W3qJL3HTAINDCVziZIySHIZcDhw=",
       "System.Private.CoreLib.wasm": "sha256-oBqNgH7R24FqGbaL3XnfQDqn3rk28jERFosgAryKT6U=",
-      "MinhaPrimeiraApp.Client.wasm": "sha256-uCKqanEOHGbpKJmevgfr7/IcAyHWFX8WAcRfQBhaslE="
+      "MinhaPrimeiraApp.Client.wasm": "sha256-DlKbfyOUj+WHu9yZGUdkJvJAsRO1KXZAlK1OCpARgO0="
     },
     "pdb": {
-      "MinhaPrimeiraApp.Client.pdb": "sha256-VGobrnuItoA5Ym3JcPTXEiiguauArfiHWQ9fZcwyBpk="
+      "MinhaPrimeiraApp.Client.pdb": "sha256-+apZZoyBGPPGP8Nj7i2Z/K8xlH4wGLTvAHrn4sPtU8M="
     }
   },
   "cacheBootResources": true,

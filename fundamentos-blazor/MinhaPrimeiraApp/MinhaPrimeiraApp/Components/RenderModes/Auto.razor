@@ -1,0 +1,18 @@
+﻿@rendermode InteractiveAuto 
+
+@* Todo auto componente auto, precisa ficar no client/ projeto webassembly
+Se algum outro componente webassembly trabalhar paralelamente, esse componente 'auto' não funciona direito *@
+
+@* Como sabemos, o modo auto, trabalhara como server ate o webassembly conseguir trabalhar no browser *@
+
+<h2>Automatic (Auto)</h2>
+<button class="btn btn-primary" @onclick="ProcessaCliqueAuto">Clica Aqui!</button> @message
+
+@code {
+    private string message = "Não clicou.";
+
+    private void ProcessaCliqueAuto()
+    {
+        message = "Agora sim, clicado!!!";
+    }
+}

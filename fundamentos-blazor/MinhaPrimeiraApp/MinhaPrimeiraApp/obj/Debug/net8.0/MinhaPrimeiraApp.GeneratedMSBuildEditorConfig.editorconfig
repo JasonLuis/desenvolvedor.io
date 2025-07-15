@@ -24,6 +24,58 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Cascading/Nivel1.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXNjYWRpbmdcTml2ZWwxLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Cascading/Nivel2.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXNjYWRpbmdcTml2ZWwyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Cascading/Nivel3.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXNjYWRpbmdcTml2ZWwzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Cascading/Nivel4.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYXNjYWRpbmdcTml2ZWw0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/DataBinding/DataBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhQmluZGluZ1xEYXRhQmluZGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/DataBinding/EventBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhQmluZGluZ1xFdmVudEJpbmRpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/DataBinding/Interpolacao.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhQmluZGluZ1xJbnRlcnBvbGFjYW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/DataBinding/OneWayBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhQmluZGluZ1xPbmVXYXlCaW5kaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/DataBinding/TwoWayBinding.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEYXRhQmluZGluZ1xUd29XYXlCaW5kaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Eventos/Eventos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFdmVudG9zXEV2ZW50b3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Generico/TabelaGenerica.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHZW5lcmljb1xUYWJlbGFHZW5lcmljYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Generico/UsoDoGenerico.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHZW5lcmljb1xVc29Eb0dlbmVyaWNvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Layout/CustomPageTitle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQ3VzdG9tUGFnZVRpdGxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +86,50 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/PreRender/DataHora.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcmVSZW5kZXJcRGF0YUhvcmEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/PreRender/PreRenderDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcmVSZW5kZXJcUHJlUmVuZGVyRGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/RenderModes/Auto.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZW5kZXJNb2Rlc1xBdXRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/RenderModes/AutoOnly.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZW5kZXJNb2Rlc1xBdXRvT25seS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/RenderModes/RenderModeAuto.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZW5kZXJNb2Rlc1xSZW5kZXJNb2RlQXV0by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/RenderModes/RenderModeServer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZW5kZXJNb2Rlc1xSZW5kZXJNb2RlU2VydmVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/RenderModes/Server.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZW5kZXJNb2Rlc1xTZXJ2ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/RenderModes/Static.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZW5kZXJNb2Rlc1xTdGF0aWMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Reutilizacao/CustomButton.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXV0aWxpemFjYW9cQ3VzdG9tQnV0dG9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Reutilizacao/MinhaLista.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXV0aWxpemFjYW9cTWluaGFMaXN0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Reutilizacao/TodoItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZXV0aWxpemFjYW9cVG9kb0l0ZW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp/Components/Routes.razor]

@@ -1,0 +1,10 @@
+﻿<h3>Exemplo de Pré-renderização</h3>
+
+<p>Data e hora atual: @DateTime.Now.ToString()</p>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(5000);
+    }
+}

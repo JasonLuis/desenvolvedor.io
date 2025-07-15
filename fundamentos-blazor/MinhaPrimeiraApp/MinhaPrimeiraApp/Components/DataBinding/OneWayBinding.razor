@@ -1,0 +1,10 @@
+﻿@rendermode InteractiveServer
+
+<h2>One Way Binding</h2>
+<br />
+
+<p>Hora Atual: @horaAtual</p>
+
+@code {
+    private string horaAtual => DateTime.Now.ToString("HH:mm:ss");
+}

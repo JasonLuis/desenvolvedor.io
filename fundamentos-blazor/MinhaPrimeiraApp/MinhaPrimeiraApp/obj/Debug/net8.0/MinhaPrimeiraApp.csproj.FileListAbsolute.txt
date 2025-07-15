@@ -50,6 +50,7 @@ C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Deb
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Debug\net8.0\scopedcss\Components\Layout\Footer.razor.rz.scp.css
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\desenvolvedor.io\fundamentos-blazor\MinhaPrimeiraApp\MinhaPrimeiraApp\obj\Debug\net8.0\scopedcss\bundle\MinhaPrimeiraApp.styles.css

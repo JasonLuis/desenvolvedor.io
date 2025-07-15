@@ -28,6 +28,18 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp.Client/RenderModes/Auto.razor]
+build_metadata.AdditionalFiles.TargetPath = UmVuZGVyTW9kZXNcQXV0by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp.Client/RenderModes/RenderModeWasm.razor]
+build_metadata.AdditionalFiles.TargetPath = UmVuZGVyTW9kZXNcUmVuZGVyTW9kZVdhc20ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp.Client/RenderModes/WebAssembly.razor]
+build_metadata.AdditionalFiles.TargetPath = UmVuZGVyTW9kZXNcV2ViQXNzZW1ibHkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/desenvolvedor.io/fundamentos-blazor/MinhaPrimeiraApp/MinhaPrimeiraApp.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

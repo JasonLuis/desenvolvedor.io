@@ -1,0 +1,45 @@
+﻿@page "/eventos"
+@rendermode InteractiveServer
+
+<h3>Eventos</h3>
+
+<input type="text" @onchange="Change" 
+                   @onselect="Select" 
+                   @onkeypress="Press" 
+                   @onblur="Blur" 
+                   @onfocus="Focus" />
+
+<br />
+<br />
+
+<h2>@mensagem</h2>
+
+@code {
+
+    private string mensagem = string.Empty;
+
+    private void Focus()
+    {
+        mensagem += "Focus, ";
+    }
+
+    private void Blur()
+    {
+        mensagem += "Blur, ";
+    }
+
+    private void Press()
+    {
+        mensagem += "Press, ";
+    }
+
+    private void Change()
+    {
+        mensagem += "Change, ";
+    }
+
+    private void Select()
+    {
+        mensagem += "Select, ";
+    }
+}
