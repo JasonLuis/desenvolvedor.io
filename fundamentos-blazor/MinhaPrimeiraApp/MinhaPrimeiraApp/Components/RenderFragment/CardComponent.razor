@@ -1,0 +1,22 @@
+﻿<div class="card">
+    <div class="card-header">
+        @Cabecalho
+    </div>
+    <div class="card-body">
+        @Corpo
+    </div>
+    <div class="card-footer">
+        @Rodape
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment Cabecalho { get; set; }
+
+    [Parameter]
+    public RenderFragment Corpo { get; set; }
+
+    [Parameter]
+    public RenderFragment Rodape { get; set; }
+}

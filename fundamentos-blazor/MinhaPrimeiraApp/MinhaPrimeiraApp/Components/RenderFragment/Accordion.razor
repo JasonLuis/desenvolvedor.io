@@ -1,0 +1,10 @@
+﻿@using System.Collections.Generic
+
+<div>
+    @ChildContent
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

@@ -1,0 +1,22 @@
+﻿<div @onclick="Toggle">
+    <div>@Title</div>
+    @if (IsExpanded)
+    {
+        <div>@ChildContent</div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    private bool IsExpanded { get; set; }
+
+    private void Toggle()
+    {
+        IsExpanded = !IsExpanded;
+    }
+}

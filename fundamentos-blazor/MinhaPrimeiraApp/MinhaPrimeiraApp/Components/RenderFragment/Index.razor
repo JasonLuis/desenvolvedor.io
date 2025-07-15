@@ -1,0 +1,35 @@
+﻿@rendermode InteractiveServer
+@page "/render-fragment"
+
+<Accordion>
+
+    <AccordionItem Title="Seção 1">
+        Conteúdo da Seção 1.
+    </AccordionItem>
+
+    <AccordionItem Title="Seção 2">
+        Conteúdo da Seção 2.
+    </AccordionItem>
+
+    <AccordionItem Title="Seção 3">
+        Conteúdo da Seção 3.
+    </AccordionItem>
+
+</Accordion>
+
+<br />
+<br />
+<br />
+
+<CardComponent>
+    <Cabecalho> @* Nome que vem do parametro RenderFragment *@
+        <h5>Meu Cabeçalho</h5>
+    </Cabecalho>
+    <Corpo> @* Nome que vem do parametro RenderFragment *@
+        <h3>Teste</h3>
+        <p>Este é o conteúdo principal do cartão.</p>
+    </Corpo> 
+    <Rodape> @* Nome que vem do parametro RenderFragment *@
+        <small>Rodapé do cartão</small>
+    </Rodape>
+</CardComponent>
