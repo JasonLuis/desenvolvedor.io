@@ -1,0 +1,52 @@
+﻿@page "/teste-should-render";
+
+@rendermode InteractiveServer
+
+<label for="valor">Digite o Valor que deseja remover da Lista</label>
+<input id="valor" @bind="valor" />
+
+<button @onclick="Remover">remover</button>
+<button @onclick="TesteStateHasChanged">Teste StateHasChanged</button>
+<br />
+<ul>
+@foreach(var item in resultado)
+{
+    <li>@item</li>
+}
+</ul>
+
+
+
+
+@code {
+    private int valor = 0;
+    private List<int> resultado = [];
+    bool podeRenderizar = false;
+
+
+    protected override void OnInitialized()
+    {
+        resultado = new List<int> { 1, 2, 3, 4, 5 };
+    }
+
+    private Task Remover()
+    {
+        resultado.Remove(valor);
+        podeRenderizar = valor % 2 == 0;
+
+        return Task.CompletedTask;
+    }
+
+    protected override bool ShouldRender()
+    {
+        return podeRenderizar;
+    }
+
+    private Task TesteStateHasChanged()
+    {
+        podeRenderizar = false;
+        resultado.Add(100);
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
+}

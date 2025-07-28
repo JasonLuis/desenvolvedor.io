@@ -1,0 +1,31 @@
+﻿@page "/products"
+@rendermode InteractiveServer
+
+@* injeta a injeção de dependência ProductService *@
+@inject IProductService ProductService
+
+<h3>Lista de Produtos</h3>
+
+@if (products == null)
+{
+    <p><em>Carregando...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>@product.Name - @product.Price.ToString("C")</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Product> products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Faz a chamada do produto utilizando a injeção de dependência
+        products = await ProductService.GetProductsAsync();
+    }
+}
