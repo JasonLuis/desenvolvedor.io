@@ -366,6 +366,17 @@
         }
       },
       "coverlet.collector/6.0.2": {},
+      "Microsoft.AspNetCore.Authentication.Google/9.0.8": {
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "9.0.8.0",
+            "fileVersion": "9.0.825.36808"
+          }
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.4": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.0.1"
@@ -2183,6 +2194,7 @@
       "xunit.runner.visualstudio/2.8.2": {},
       "TodoListApi/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "9.0.8",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.4",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.4",
           "Microsoft.AspNetCore.OpenApi": "9.0.4",
@@ -4034,6 +4046,13 @@
       "sha512": "sha512-bJShQ6uWRTQ100ZeyiMqcFlhP7WJ+bCuabUs885dJiBEzMsJMSFr7BOyeCw4rgvQokteGi5rKQTlkhfQPUXg2A==",
       "path": "coverlet.collector/6.0.2",
       "hashPath": "coverlet.collector.6.0.2.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s6ruYYG+tR11o2NaGjDsHMJYve+lQx91kIo4Dpn78T7+lzhq1pItpot3zej1Z8BoDgFTuz2GdmYh0kbFlsW24g==",
+      "path": "microsoft.aspnetcore.authentication.google/9.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.google.9.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.4": {
       "type": "package",

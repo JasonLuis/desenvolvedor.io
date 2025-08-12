@@ -91,7 +91,14 @@ builder.Services.AddAuthentication(opt =>
 {
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; // define o esquema de autenticação padrão
     opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; // define o esquema de desafio padrão
-}).AddJwtBearer(opt =>
+})
+.AddGoogle(opt =>
+{
+    opt.ClientId = builder.Configuration["Authentication:Google:ClientId"]; // pega o ClientId do Google
+    opt.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"]; // pega o ClientSecret do Google
+    opt.CallbackPath = "/signin-google";
+})
+.AddJwtBearer(opt =>
 {
     opt.RequireHttpsMetadata = true; // requer HTTPS
     opt.SaveToken = true; // salva o token
@@ -104,6 +111,8 @@ builder.Services.AddAuthentication(opt =>
         ValidAudience = jwtSettings.Audience, // público válido
     };
 });
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 

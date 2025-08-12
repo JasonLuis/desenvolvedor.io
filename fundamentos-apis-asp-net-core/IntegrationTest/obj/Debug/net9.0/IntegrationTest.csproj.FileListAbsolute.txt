@@ -471,3 +471,4 @@ C:\desenvolvedor.io\fundamentos-apis-asp-net-core\IntegrationTest\obj\Debug\net9
 C:\desenvolvedor.io\fundamentos-apis-asp-net-core\IntegrationTest\obj\Debug\net9.0\IntegrationTest.genruntimeconfig.cache
 C:\desenvolvedor.io\fundamentos-apis-asp-net-core\IntegrationTest\obj\Debug\net9.0\ref\IntegrationTest.dll
 C:\desenvolvedor.io\fundamentos-apis-asp-net-core\IntegrationTest\bin\Debug\net9.0\Bogus.dll
+C:\Desenvolvedor.io\fundamentos-apis-asp-net-core\IntegrationTest\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll

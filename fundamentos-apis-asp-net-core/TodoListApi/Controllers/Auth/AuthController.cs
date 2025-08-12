@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -61,6 +63,51 @@ public class AuthController: ControllerBase
         if (result.Succeeded) return Ok(await GerarToken(loginUser.Email));
         
         return Problem("Usuário ou senha inválidos.");
+    }
+
+    [HttpGet("login-google")]
+    public IActionResult LoginComGmail()
+    {
+        var props = new AuthenticationProperties { RedirectUri = Url.Action("GoogleCallback") };
+        return Challenge(props, GoogleDefaults.AuthenticationScheme);
+    }
+
+    [HttpGet("google-callback")]
+    public async Task<IActionResult> GoogleCallback()
+    {
+        var result = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
+
+        if (!result.Succeeded)
+            return BadRequest("Erro ao autenticar com Google");
+
+        var email = result.Principal.FindFirst(ClaimTypes.Email)!.Value;
+        var user = await _userManager.FindByEmailAsync(email);
+
+        if (user != null && user.GoogleId == null)
+            return BadRequest("Erro, usuário já possui uma conta cadastrada nessa plataforma.");
+
+        if (user == null)
+        {
+            var createUser = new User
+            {
+                UserName = result.Principal.Identity!.Name!.Split(' ')[0],
+                Email = result.Principal.FindFirst(ClaimTypes.Email)!.Value,
+                EmailConfirmed = true,
+                GoogleId = result.Principal.FindFirst(ClaimTypes.NameIdentifier)!.Value
+            };
+
+            var createResult = await _userManager.CreateAsync(createUser);
+
+            if (createResult.Succeeded)
+            {
+                await _signInManager.SignInAsync(createUser, false);
+                return Ok(await GerarToken(createUser!.Email));
+            }
+
+            return Problem("Erro ao registrar o usuário");
+        }
+
+        return Ok(await GerarToken(email));
     }
 
     private async Task<AuthTokenResponse> GerarToken(string email)

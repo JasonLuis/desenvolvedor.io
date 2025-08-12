@@ -15,6 +15,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/9.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.4": {
         "type": "package",
         "dependencies": {
@@ -2575,6 +2591,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Google/9.0.8": {
+      "sha512": "s6ruYYG+tR11o2NaGjDsHMJYve+lQx91kIo4Dpn78T7+lzhq1pItpot3zej1Z8BoDgFTuz2GdmYh0kbFlsW24g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/9.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/net9.0/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.9.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/9.0.4": {
@@ -8350,6 +8381,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Microsoft.AspNetCore.Authentication.Google >= 9.0.8",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.4",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.4",
       "Microsoft.AspNetCore.OpenApi >= 9.0.4",
@@ -8361,23 +8393,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aluga.com\\.nuget\\packages\\": {},
+    "C:\\Users\\jason\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\TodoListApi.csproj",
+      "projectUniqueName": "C:\\Desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\TodoListApi.csproj",
       "projectName": "TodoListApi",
-      "projectPath": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\TodoListApi.csproj",
-      "packagesPath": "C:\\Users\\aluga.com\\.nuget\\packages\\",
-      "outputPath": "C:\\desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\obj\\",
+      "projectPath": "C:\\Desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\TodoListApi.csproj",
+      "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
+      "outputPath": "C:\\Desenvolvedor.io\\fundamentos-apis-asp-net-core\\TodoListApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\aluga.com\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8386,7 +8418,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8411,6 +8442,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": {
+            "target": "Package",
+            "version": "[9.0.8, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[9.0.4, )"
@@ -8465,7 +8500,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
